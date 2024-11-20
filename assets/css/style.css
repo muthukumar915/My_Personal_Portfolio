@@ -11183,15 +11183,21 @@ p {
 }
 
 .service-card {
+  /* max-width: 1000px; */
   position: relative;
-  min-height: 230px;
+  min-height: 320px;
+  /* max-width: 500px; */
   border: 1px solid #dee2e6;
   overflow: hidden;
-  border-radius: 3px;
+
+  border-radius: 15px;
+  /* width: auto; */
+
 }
 
 .service-card .body {
   padding: 10px;
+  /* max-width: 500px; */
 }
 
 .service-card .body img.icon {
