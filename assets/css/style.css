@@ -12323,12 +12323,12 @@ pre .code {
 .testimonial__image {
   justify-self: center;
   width: 100%;
-  max-width: 550px;
+  max-width: 650px;
   border-radius: 0.5rem;
 }
 
 .swiper-wrapper {
-  margin-bottom: 8rem;
+  margin-bottom:50PX;
 }
 
 .testimonial__wrapper .swiper-pagination-bullets {
@@ -12347,23 +12347,4 @@ pre .code {
 }
 .section__title{
   text-align: center;
-}
-@media screen and (min-width: 580px) {
-  .contact__list {
-    grid-template-columns: repeat(2, max-content);
-  }
-}
-
-@media screen and (min-width: 668px) {
-  .services__wrapper,
-  .portfolio__wrapper {
-    grid-template-columns: repeat(2, max-content);
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .home__wrapper,
-  .about__wrapper {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
