@@ -12348,3 +12348,7 @@ pre .code {
 .section__title{
   text-align: center;
 }
+.en {
+  color:#695aa6; /* Changes the color to violet */
+  font-size: 80px; /* Optional: Adjust font size */
+}
