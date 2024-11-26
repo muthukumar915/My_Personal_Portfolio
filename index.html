@@ -9,7 +9,16 @@
     <title>My Portfolio | MK</title>
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
-  
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+  />
+
+
+  <!-- Owl Carousel CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/boxicons/css/boxicons.min.css" />  
 
@@ -377,15 +386,14 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="testimonial-card">
+
                         <div class="testimonial-card-img-holder">
                             <img src="assets/imgs/avatar2.jpg" class="testimonial-card-img"
                                 alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
                         </div>
                         <div class="testimonial-card-body">
-                            <p class="testimonial-card-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing
-                                elit. Eaque doloribus autem aperiam earum nostrum omnis blanditiis corporis perspiciatis
-                                adipisci nihil.</p>
-                            <h6 class="testimonial-card-title">Emily Reb</h6>
+                            <p class="testimonial-card-subtitle">For the past 30 days,I have attended the 30 Days Full Stack Development Challenge held by Muthu Kumar,His way of teaching was excellent and he specifically cleared each and every ones doubt.I felt like a friend teached me the session.He was very friendly , kind and polite to all.The way he explained things was clear and easily understandable.I felt free to ask any doubts to him.This 30 days definitely going to be the great start up for full stack developer career of mine.</p>
+                            <h6 class="testimonial-card-title">Nisha R</h6>
                         </div>
                     </div>
                 </div>
@@ -406,6 +414,108 @@
             </div>
         </div> <!-- end of container -->
     </section> <!-- end of testimonial section -->
+
+
+
+
+
+
+    <!--==================  TESTIMONIALS SECTION ====================-->
+    <section id="testimonials" class="testimonials section">
+        <div class="container">
+          <div class="section__header">
+            <h2 class="section__title">Feedback from Students</h2>
+            <p class="section__description">
+             
+            </p>
+          </div>
+          <div class="grid testimonial__wrapper swiper">
+            <div class="swiper-wrapper">
+              <!--========= testimonial 1 ============-->
+              <div class="grid testimonial__item swiper-slide">
+                <img
+                  src="./assets/imgs/nisha.png"
+                  alt="Emma Anderson"
+                  class="testimonial__image"
+                />
+                <div class="testimonial__body">
+                  <div class="testimonial__icon">
+                    <i class="bx bxs-quote-alt-left"></i>
+                  </div>
+                  <p class="testimonial__quote">
+                  "I felt like a friend😊"
+                  </p>
+                  <p class="testimonial__name">Nisha R</p>
+                  <span class="testimonial__occupation">Student</span>
+                </div>
+              </div>
+              <!--========= testimonial 2 ============-->
+              <div class="grid testimonial__item swiper-slide">
+                <img
+                  src="assets/img/review2.png"
+                  alt="Matt Goldman"
+                  class="testimonial__image"
+                />
+                <div class="testimonial__body">
+                  <div class="testimonial__icon">
+                    <i class="bx bxs-quote-alt-left"></i>
+                  </div>
+                  <p class="testimonial__quote">
+                 They really teach us in very good manner,they are really motivating us which makes me inspired,I just love it.
+                  </p>
+                  <p class="testimonial__name">Sherin Princy</p>
+                  <span class="testimonial__occupation">Student</span>
+                </div>
+              </div>
+              <!--========= testimonial 3 ============-->
+              <div class="grid testimonial__item swiper-slide">
+                <img
+                  src="assets/img/review3.png"
+                  alt="Andrew Smith"
+                  class="testimonial__image"
+                />
+                <div class="testimonial__body">
+                  <div class="testimonial__icon">
+                    <i class="bx bxs-quote-alt-left"></i>
+                  </div>
+                  <p class="testimonial__quote">
+                  Really Mr.Muthu Kumar have done a very great job compared to our college staffs... such a good person i have met in my life.
+                  </p>
+                  <p class="testimonial__name">ThenRaja</p>
+                  <span class="testimonial__occupation">Student</span>
+                </div>
+              </div>
+              <!--========= testimonial 4 ============-->
+              <div class="grid testimonial__item swiper-slide">
+                <img
+                  src="assets/img/review4.png"
+                  alt="Andrew Smith"
+                  class="testimonial__image"
+                />
+                <div class="testimonial__body">
+                  <div class="testimonial__icon">
+                    <i class="bx bxs-quote-alt-left"></i>
+                  </div>
+                  <p class="testimonial__quote">
+                  I have completed in my Web Development internship with guidance of Mr.Muthu Kumar sir.This is amazing internship overall of this internship is very excellent..
+                  </p>
+                  <p class="testimonial__name">Sanika Patil</p>
+                  <span class="testimonial__occupation">Student</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      
+
+<!-- end -->
+
+
+
+
+
 
     <!-- blog section -->
     <section class="section" id="blog">
@@ -520,11 +630,21 @@
     <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
     <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
 
+    <!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- Owl Carousel JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+  <!--================== SWIPER JS ====================-->
+  <script src="./assets/js/swiper-bundle.min.js"></script>
+
     <!-- bootstrap 3 affix -->
     <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
 
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./assets/js/script.js"></script>
 
-    <script src="assets/js/script.js"></script>
+   
 
 </body>
 

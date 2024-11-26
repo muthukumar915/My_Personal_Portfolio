@@ -22,3 +22,17 @@ $('#nav-toggle').click(function(){
     $(this).toggleClass('is-active')
     $('ul.nav').toggleClass('show');
 });
+
+
+// Swiper
+const testimonialSwiper = new Swiper(".testimonial__wrapper", {
+  loop: true,
+  spaceBetween: 30,
+  pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+  }
+})
+
+
+  
