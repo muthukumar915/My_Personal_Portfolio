@@ -12352,3 +12352,44 @@ pre .code {
   color:#695aa6; /* Changes the color to violet */
   font-size: 80px; /* Optional: Adjust font size */
 }
+
+/* contact */
+.contact__body {
+  display: flex;
+  justify-content: center;
+}
+
+.contact__list {
+  display: grid;
+  gap: 3rem;
+  margin-bottom: 5rem;
+}
+
+.contact__item {
+  background-color: var(--bg-light);
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 280px;
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 2rem;
+  color: var(--color-white);
+  text-align: center;
+  box-shadow: var(--shadow);
+}
+
+.contact__icon {
+  font-size: 4rem;
+}
+@media screen and (min-width: 580px) {
+  .contact__list {
+    grid-template-columns: repeat(2, max-content);
+  }
+}
+@media screen and (min-width: 768px){
+  .contact__list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
